@@ -4,6 +4,7 @@ cc_binary(
 		"main.cc",
 	],
     deps = [
+        "//lib:cookie-jar",
 		"@com_github_google_glog//:glog",
 	],
 )
