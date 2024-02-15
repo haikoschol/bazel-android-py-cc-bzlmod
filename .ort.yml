@@ -1,0 +1,11 @@
+analyzer:
+  skip_excluded: true
+excludes:
+  paths:
+  - pattern: "python/**"
+    reason: "TEST_OF"
+    comment: "just testing CC for now"
+  - pattern: "android/**"
+    reason: "TEST_OF"
+    comment: "just testing CC for now"
+
